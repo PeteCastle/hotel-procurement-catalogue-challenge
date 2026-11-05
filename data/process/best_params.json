@@ -1,0 +1,5 @@
+{
+  "family": "ridge",
+  "class_weight": "balanced",
+  "alpha": 0.8536881678528759
+}

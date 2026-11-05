@@ -1,0 +1,16 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Secrets
+.env
+kaggle.json
+
+# Large generated files (rebuilt by notebooks/01_data_preprocessing.ipynb)
+data/process/*_features.csv
+data/process/*_pca.csv

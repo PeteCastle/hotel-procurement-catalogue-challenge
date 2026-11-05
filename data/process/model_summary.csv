@@ -1,0 +1,8 @@
+model,cv_macro_f1,val_fold_mean,val_fold_sd,train_fold_mean,gap,verdict,fit_s,predict_s,trials,trial_s
+ridge,0.8394,0.8388,0.0052,0.9438,0.105,overfits,0.29,0.043,9,2.1
+linear_svc,0.8218,0.8219,0.011,0.9475,0.1256,overfits,0.54,0.035,10,4.2
+linear_svc (default),0.8212,0.8213,0.01,0.9493,0.1281,overfits,0.53,0.044,0,
+sgd,0.8045,0.8049,0.0138,0.9267,0.1218,overfits,49.88,0.06,2,161.7
+logistic,0.7861,0.7858,0.0088,0.9715,0.1858,overfits,3.65,0.054,3,15.7
+xgboost,0.7562,0.756,0.01,0.9232,0.1672,overfits,37.89,0.175,4,302.7
+catboost,0.6788,0.6785,0.0125,0.7534,0.0749,some overfit,12.55,0.131,2,110.4
